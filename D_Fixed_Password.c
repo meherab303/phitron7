@@ -17,7 +17,7 @@ int main()
 {
    int password;
    int attemps=0;
-   while(scanf("%d",&password)!=EOF){
+   while(scanf("%d",&password)!=EOF){ //এই প্রোগ্রামটি ইনপুট নেওয়া বন্ধ করবে শুধুমাত্র তখনই, যখন আপনি EOF(end of file) সিগন্যাল পাঠাবেন (Ctrl + Z + Enter Windows-এ, অথবা Ctrl + D Unix/Linux-এ)।
     loadingAnimation();
     if(password==1999){
         printf("Correct\n");
