@@ -11,6 +11,7 @@ void fun(int* x){
 int main()
 {
    int x=10;
+    printf("main function e x er address-->%p\n",&x);
    fun(&x);
    printf("main function e x-->%d\n",x);
    printf("main function e x er address-->%p\n",&x);
