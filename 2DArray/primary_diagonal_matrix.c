@@ -1,3 +1,5 @@
+// diagonal value can not be 0 in this problem
+
 // #include<stdio.h>
 // int main()
 // {
